@@ -6,7 +6,7 @@ mod 'puppetlabs/ntp'
 
 # Forge + version (intentionally old release)
 mod 'puppetlabs/apache', '1.1.0'
-mod 'nanliu/puppet-staging', '1.0.1'
+mod 'nanliu/staging', '1.0.1'
 
 # Git repo/syntax
 mod 'plex',
