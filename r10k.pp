@@ -2,7 +2,7 @@ class { 'r10k':
   version       => '1.3.4',
   sources       => {
     'puppet'    => {
-      'remote'  => '/var/lib/puppet-control',
+      'remote'  => 'git@github.com:abrader/r10k_demo.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
