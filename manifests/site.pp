@@ -1,3 +1,3 @@
 node 'agent.puppetlabs.vm' {
-  include notifier
+  include plex::server
 }
