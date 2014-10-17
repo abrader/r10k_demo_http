@@ -1,3 +1,3 @@
 node 'agent.puppetlabs.vm' {
-  include plex::server
+  include role::mediaserver
 }
